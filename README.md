@@ -10,6 +10,7 @@
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0169-majority-element) |
+| [0202-happy-number](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0202-happy-number) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -29,6 +30,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0202-happy-number](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0202-happy-number) |
 | [0287-find-the-duplicate-number](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0287-find-the-duplicate-number) |
 ## Binary Search
 |  |
@@ -45,5 +47,10 @@
 ## Floyd's Cycle Finding Algorithm
 |  |
 | ------- |
+| [0202-happy-number](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0202-happy-number) |
 | [0287-find-the-duplicate-number](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0287-find-the-duplicate-number) |
+## Math
+|  |
+| ------- |
+| [0202-happy-number](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0202-happy-number) |
 <!---LeetCode Topics End-->
