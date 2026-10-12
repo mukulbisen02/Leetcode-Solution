@@ -4,20 +4,23 @@ public:
         int slow = 0;
         int fast = 0;
 
-        // Phase 1: Find meeting point
-        do {
+        while (true){
             slow = nums[slow];
             fast = nums[nums[fast]];
-        } while (slow != fast);
 
-        // Phase 2: Find duplicate
-        slow = 0;
+            //when cycle prasent
+            if(slow == fast){
 
-        while (slow != fast) {
-            slow = nums[slow];
-            fast = nums[fast];
+                //update slow
+                slow = 0;
+
+                //for staring node of cycle
+                while (slow != fast){
+                    slow = nums[slow];
+                    fast = nums[fast];
+                }
+                return slow;
+            }
         }
-
-        return slow;
     }
 };
