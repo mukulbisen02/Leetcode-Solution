@@ -32,6 +32,7 @@
 | ------- |
 | [0202-happy-number](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0202-happy-number) |
 | [0287-find-the-duplicate-number](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0287-find-the-duplicate-number) |
+| [0876-middle-of-the-linked-list](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0876-middle-of-the-linked-list) |
 ## Binary Search
 |  |
 | ------- |
@@ -53,4 +54,8 @@
 |  |
 | ------- |
 | [0202-happy-number](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0202-happy-number) |
+## Linked List
+|  |
+| ------- |
+| [0876-middle-of-the-linked-list](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0876-middle-of-the-linked-list) |
 <!---LeetCode Topics End-->
