@@ -17,7 +17,8 @@ public:
 
         while (fast != 1) {
             slow = digitSquareSum(slow);
-            fast = digitSquareSum(digitSquareSum(fast));
+            fast = digitSquareSum(fast);
+            fast = digitSquareSum(fast);
 
             if (slow == fast && slow != 1) {
                 return false;
