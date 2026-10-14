@@ -8,6 +8,7 @@
 | [0152-maximum-product-subarray](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0152-maximum-product-subarray) |
 | [0169-majority-element](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0169-majority-element) |
 | [0287-find-the-duplicate-number](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0287-find-the-duplicate-number) |
+| [1186-maximum-subarray-sum-with-one-deletion](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 ## Hash Table
 |  |
 | ------- |
@@ -74,4 +75,5 @@
 | ------- |
 | [0053-maximum-subarray](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0053-maximum-subarray) |
 | [0152-maximum-product-subarray](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0152-maximum-product-subarray) |
+| [1186-maximum-subarray-sum-with-one-deletion](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
 <!---LeetCode Topics End-->
