@@ -7,20 +7,22 @@ public:
 
         for (int i = 1; i < arr.size(); i++) {
             //Approach 1:
-            // int v1 = oneDelete + arr[i];
-            // oneDelete = max(noDelete, v1);
+            //Update oneDelete first
+            int v1 = oneDelete + arr[i];
+            oneDelete = max(noDelete, v1);
 
-            // int v2 = noDelete + arr[i];
-            // noDelete = max(arr[i], v2);
+            //than update noDelete
+            int v2 = noDelete + arr[i];
+            noDelete = max(arr[i], v2);
 
-            //Approach 2:
-            int prev_nodelete = noDelete;
+            // //Approach 2:
+            // int prev_nodelete = noDelete;
 
-            int v1 = noDelete + arr[i];
-            int v2 = oneDelete + arr[i];
+            // int v1 = noDelete + arr[i];
+            // int v2 = oneDelete + arr[i];
 
-            noDelete = max(v1, arr[i]);
-            oneDelete = max(v2, prev_nodelete);
+            // noDelete = max(v1, arr[i]);
+            // oneDelete = max(v2, prev_nodelete);
 
             //Final Answer
             ans = max(ans, max(noDelete, oneDelete));
