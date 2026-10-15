@@ -5,14 +5,24 @@ public:
         int maxEnd = 0, minEnd = 0;
         int maxSum = nums[0], minSum = nums[0];
 
-        for (int i = 0; i < nums.size(); i++){
-            maxEnd = max(maxEnd + nums[i], nums[i]);
+        // for (int i = 0; i < nums.size(); i++){
+        //     maxEnd = max(maxEnd + nums[i], nums[i]);
+        //     maxSum = max(maxSum, maxEnd);
+
+        //     minEnd = min(minEnd + nums[i], nums[i]);
+        //     minSum = min(minSum, minEnd);
+
+        //     total += nums[i];
+        // }
+        
+        for (int num : nums) {
+            maxEnd = max(num, maxEnd + num);
             maxSum = max(maxSum, maxEnd);
 
-            minEnd = min(minEnd + nums[i], nums[i]);
+            minEnd = min(num, minEnd + num);
             minSum = min(minSum, minEnd);
 
-            total += nums[i];
+            total += num;
         }
 
         if (maxSum < 0)
