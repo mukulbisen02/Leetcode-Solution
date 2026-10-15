@@ -17,7 +17,6 @@ public:
 
             // //Approach 2:
             // int prev_nodelete = noDelete;
-
             // int v1 = noDelete + arr[i];
             // int v2 = oneDelete + arr[i];
 
