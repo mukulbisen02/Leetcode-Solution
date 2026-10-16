@@ -9,13 +9,13 @@ public:
         for(int num : nums){
             sum  += num;
 
-            // int remainder = (((sum % k) + k) % k); // handle negative prefix sums
+            int remainder = (((sum % k) + k) % k); // handle negative prefix sums
 
             // second way for find remainder
-            int remainder = (sum % k);
-            if (remainder < 0){ // handle negative prefix sums
-                remainder += k;
-            }
+            // int remainder = (sum % k);
+            // if (remainder < 0){ // handle negative prefix sums
+            //     remainder += k;
+            // }
 
             count += remCount[remainder]; // check remainder in hash map
 
