@@ -8,6 +8,7 @@
 | [0152-maximum-product-subarray](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0152-maximum-product-subarray) |
 | [0169-majority-element](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0169-majority-element) |
 | [0287-find-the-duplicate-number](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0287-find-the-duplicate-number) |
+| [0560-subarray-sum-equals-k](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0724-find-pivot-index) |
 | [0918-maximum-sum-circular-subarray](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0918-maximum-sum-circular-subarray) |
 | [1186-maximum-subarray-sum-with-one-deletion](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/1186-maximum-subarray-sum-with-one-deletion) |
@@ -19,6 +20,7 @@
 | [0142-linked-list-cycle-ii](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0142-linked-list-cycle-ii) |
 | [0169-majority-element](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0169-majority-element) |
 | [0202-happy-number](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0202-happy-number) |
+| [0560-subarray-sum-equals-k](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0560-subarray-sum-equals-k) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -93,5 +95,6 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0724-find-pivot-index) |
 <!---LeetCode Topics End-->
