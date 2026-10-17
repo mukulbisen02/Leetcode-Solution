@@ -1,7 +1,12 @@
+
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
         vector<vector<int>> result;
+
+        if (intervals.empty())
+            return result;
+
         sort(intervals.begin(), intervals.end());
 
         int st1 = intervals[0][0];
@@ -13,15 +18,14 @@ public:
             int end2 = intervals[i][1];
 
             if (end1 >= st2) {
-                st1 = st1;
                 end1 = max(end1, end2);
-                continue;
+            } else {
+                result.push_back({st1, end1});
+                st1 = st2;
+                end1 = end2;
             }
-            result.push_back({st1, end1});
-
-            st1 = st2;
-            end1 = end2;
         }
+
         result.push_back({st1, end1});
         return result;
     }
