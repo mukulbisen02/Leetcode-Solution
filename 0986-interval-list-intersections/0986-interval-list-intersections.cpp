@@ -15,20 +15,30 @@ public:
             int st2 = secondList[j][0];
             int end2 = secondList[j][1];
 
-            if (st1 <= st2) {
-                if (end1 >= st2) {
-                    int s = max(st1, st2);
-                    int e = min(end1, end2);
-                    result.push_back({s, e});
-                }
-            } else {
-                if (end2 >= st1) {
-                    int s = max(st1, st2);
-                    int e = min(end1, end2);
-                    result.push_back({s, e});
-                }
+            // method 1: for find Intersection point
+            // if (st1 <= st2) {
+            //     if (end1 >= st2) {
+            //         int s = max(st1, st2);
+            //         int e = min(end1, end2);
+            //         result.push_back({s, e});
+            //     }
+            // } else {
+            //     if (end2 >= st1) {
+            //         int s = max(st1, st2);
+            //         int e = min(end1, end2);
+            //         result.push_back({s, e});
+            //     }
+            // }
+
+            // method 2: for find Intersection point
+            int start = max(st1, st2);
+            int end = min(end1, end2);
+
+            if(start <= end){
+                result.push_back({start, end});
             }
 
+            //update i and j
             if (end1 <= end2)
                 i++;
             else
