@@ -116,4 +116,12 @@
 |  |
 | ------- |
 | [0986-interval-list-intersections](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0986-interval-list-intersections) |
+## String
+|  |
+| ------- |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
+## Stack
+|  |
+| ------- |
+| [1047-remove-all-adjacent-duplicates-in-string](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 <!---LeetCode Topics End-->
