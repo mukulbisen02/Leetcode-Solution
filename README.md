@@ -119,9 +119,15 @@
 ## String
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0020-valid-parentheses) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0020-valid-parentheses) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0020-valid-parentheses](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0020-valid-parentheses) |
 <!---LeetCode Topics End-->
