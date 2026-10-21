@@ -10,6 +10,7 @@
 | [0152-maximum-product-subarray](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0152-maximum-product-subarray) |
 | [0169-majority-element](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0169-majority-element) |
 | [0287-find-the-duplicate-number](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0287-find-the-duplicate-number) |
+| [0503-next-greater-element-ii](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0503-next-greater-element-ii) |
 | [0525-contiguous-array](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0724-find-pivot-index) |
@@ -126,6 +127,7 @@
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0020-valid-parentheses) |
+| [0503-next-greater-element-ii](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0739-daily-temperatures) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 ## Bracket Sequences
@@ -135,5 +137,6 @@
 ## Monotonic Stack
 |  |
 | ------- |
+| [0503-next-greater-element-ii](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0503-next-greater-element-ii) |
 | [0739-daily-temperatures](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0739-daily-temperatures) |
 <!---LeetCode Topics End-->
