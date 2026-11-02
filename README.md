@@ -4,6 +4,7 @@
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0053-maximum-subarray](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0053-maximum-subarray) |
 | [0056-merge-intervals](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0057-insert-interval) |
@@ -52,6 +53,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0141-linked-list-cycle](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0142-linked-list-cycle-ii) |
 | [0202-happy-number](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0202-happy-number) |
