@@ -3,35 +3,38 @@ public:
     string removeDuplicates(string s, int k) {
         stack<pair<char, int>> stk;
 
-        for (char c : s){
-            if (stk.empty() || stk.top().first != c){
+        for (char c : s) {
+            if (stk.empty() || stk.top().first != c) {
                 stk.push({c, 1});
-                continue;
+            } else {
+                stk.top().second++;
             }
-            
-            if (stk.top().second < k-1){
-                pair<char, int> p = stk.top();
+
+            if (!stk.empty() && stk.top().second == k) {
                 stk.pop();
-
-                stk.push({p.first, p.second+1});
-                continue;
             }
-
-            stk.pop();
         }
 
         string answer;
 
-        while(!stk.empty()){
+        while (!stk.empty()) {
             pair<char, int> p = stk.top();
             stk.pop();
 
-            while (p.second--){
+            while (p.second--) {
                 answer.push_back(p.first);
             }
         }
 
-        reverse (answer.begin(), answer.end());
+        reverse(answer.begin(), answer.end());
+
+        // while (!stk.empty()) {
+        //     auto [ch, count] = stk.top();
+        //     stk.pop();
+
+        //     answer.append(count, ch);
+        // }
+        // reverse(answer.begin(), answer.end());
 
         return answer;
     }
