@@ -1,17 +1,21 @@
 class Solution {
 public:
     bool canConstruct(string ransomNote, string magazine) {
-        unordered_map<char, int> freq;
+        // Approach 1
+        int freq[26] = {0};                 //Fixed-size array
+        // unordered_map<char,/ int> freq;  //Hash Map
 
         for (int i = 0; i < magazine.size(); i++) {
-            freq[magazine[i]]++;
+            freq[magazine[i] - 'a']++;  //Fixed-size array
+            // freq[magazine[i]]++;     //Hash Map
         }
 
         for (int i = 0; i < ransomNote.size(); i++) {
-            freq[ransomNote[i]]--;
+            freq[ransomNote[i] - 'a']--;    //Fixed-size array
+            // freq[ransomNote[i]]--;       //Hash Map
 
-            if (freq[ransomNote[i]] < 0)
-                return false;
+            if (freq[ransomNote[i] - 'a'] < 0) return false;    //Fixed-size array
+            // if (freq[ransomNote[i]] < 0) return false;       //Hash Map
         }
         return true;
     }
