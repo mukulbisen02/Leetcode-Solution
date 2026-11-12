@@ -2,8 +2,8 @@ class Solution {
 public:
     int longestPalindrome(string s) {
         unordered_map<char, int> freq;
-        for (int i = 0; i < s.size(); i++) {
-            freq[s[i]]++;
+        for (char c : s) {
+            freq[c]++;
         }
 
         bool odd = false;
@@ -20,17 +20,14 @@ public:
             }
         }
 
-        if (odd == false) {
-            return result;
-        }
-
-        // for (auto i : freq) {
-        //     int count = i.second;
-
-        //     if (count % 2 == 1) {
-        //         result += count - 1;
-        //     }
+        // type 1 for answer
+        // if (odd == false) {
+        //     return result;
         // }
-        return result + 1;
+        // return result + 1;
+
+        //or
+        // type 2 for answer
+        return result + odd;
     }
 };
