@@ -21,13 +21,13 @@ public:
         }
 
         // type 1 for answer
-        // if (odd == false) {
-        //     return result;
-        // }
-        // return result + 1;
+        if (odd == false) {
+            return result;
+        }
+        return result + 1;
 
         //or
         // type 2 for answer
-        return result + odd;
+        // return result + odd;
     }
 };
