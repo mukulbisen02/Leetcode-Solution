@@ -12,7 +12,7 @@ class Solution {
 public:
     ListNode* rotateRight(ListNode* head, int k) {
         // Phase 1: Handle the empty list
-        if (head == NULL)
+        if (head == NULL || head->next == NULL || k == 0)
             return head;
 
         // Phase 2: Find the length and last node
@@ -32,13 +32,15 @@ public:
 
         // Phase 4: Find the new last node (n-k position)
         ListNode* temp = head;
-        int count = 1;
+        // int count = 1;
+        // while (temp != NULL) {
+        //     if (count == n - k)
+        //         break;
 
-        while (temp != NULL) {
-            if (count == n - k)
-                break;
-
-            count++;
+        //     count++;
+        //     temp = temp->next;
+        // }
+        for (int i = 1; i < n - k; i++) {
             temp = temp->next;
         }
 
