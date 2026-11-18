@@ -20,6 +20,7 @@
 | [0704-binary-search](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0704-binary-search) |
 | [0724-find-pivot-index](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0724-find-pivot-index) |
 | [0739-daily-temperatures](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0739-daily-temperatures) |
+| [0852-peak-index-in-a-mountain-array](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0852-peak-index-in-a-mountain-array) |
 | [0918-maximum-sum-circular-subarray](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0918-maximum-sum-circular-subarray) |
 | [0974-subarray-sums-divisible-by-k](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0974-subarray-sums-divisible-by-k) |
 | [0986-interval-list-intersections](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0986-interval-list-intersections) |
@@ -82,6 +83,7 @@
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0287-find-the-duplicate-number](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0287-find-the-duplicate-number) |
 | [0704-binary-search](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0704-binary-search) |
+| [0852-peak-index-in-a-mountain-array](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0852-peak-index-in-a-mountain-array) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -181,4 +183,8 @@
 | [0024-swap-nodes-in-pairs](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0024-swap-nodes-in-pairs) |
 | [0025-reverse-nodes-in-k-group](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0025-reverse-nodes-in-k-group) |
 | [0206-reverse-linked-list](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0206-reverse-linked-list) |
+## Ternary Search
+|  |
+| ------- |
+| [0852-peak-index-in-a-mountain-array](https://github.com/mukulbisen02/Leetcode-Solution/tree/master/0852-peak-index-in-a-mountain-array) |
 <!---LeetCode Topics End-->
