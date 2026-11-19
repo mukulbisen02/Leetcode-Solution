@@ -19,12 +19,15 @@ public:
     int minEatingSpeed(vector<int>& piles, int h) {
         // Phase 2: Initialize the binary search range
         int left = 1; // Minimum possible eating speed
+
+        // int right = *max_element(piles.begin(), piles.end()); // Maximum required eating speed
+        //or
         int right = 0;
         for(int i = 0; i < piles.size(); i++){  // Maximum required eating speed
             right = max(right, piles[i]);
         }
 
-        int minSpeed = -1;
+        int minSpeed = -1; // Store the minimum valid eating speed
 
         // Phase 3: Apply binary search on possible eating speeds
         while (left <= right) {
