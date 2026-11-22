@@ -8,40 +8,24 @@ public:
             return false;
         }
 
-        // Phase 1: First binary search → Find the possible row
-        int low = 0;
-        int high = matrix.size() - 1;
+        int m = matrix.size();
+        int n = matrix[0].size();
 
-        int row = -1;
-
-        while (low <= high) {
-            int guess = low + (high - low) / 2;
-
-            if (matrix[guess][0] <= target) {
-                row = guess;
-                low = guess + 1;
-            }
-            else {
-                high = guess - 1;
-            }
-        }
-
-        // Target is smaller than the first element
-        if (row == -1) {
-            return false;
-        }
-
-        // Phase 2: Second binary search → Find the target inside that selected row
+        // Binary Search on the entire matrix as a 1D array
         int left = 0;
-        int right = matrix[0].size() - 1;
+        int right = (m * n) - 1;
 
         while (left <= right) {
             int mid = left + (right - left) / 2;
 
-            if (matrix[row][mid] == target) {
+            // Convert 1D index into 2D row and column
+            int row = mid / n;
+            int col = mid % n;
+
+            if (matrix[row][col] == target) {
                 return true;
             }
-            else if (matrix[row][mid] < target) {
+            else if (matrix[row][col] < target) {
                 left = mid + 1;
             }
             else {
