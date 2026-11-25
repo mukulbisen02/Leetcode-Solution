@@ -17,17 +17,11 @@ public:
         // Phase 3: Process the remaining elements
         for (int i = k; i < n; i++) {
 
-            // If current element is smaller than or equal
-            // to the smallest element in the heap, ignore it
-            if (nums[i] <= minHeap.top()) {
-                continue;
-            }
-
+            // Insert the current larger element
+            minHeap.push(nums[i]);
             // Remove the smallest element
             minHeap.pop();
 
-            // Insert the current larger element
-            minHeap.push(nums[i]);
         }
 
         // Phase 4: The heap top is the kth largest element
