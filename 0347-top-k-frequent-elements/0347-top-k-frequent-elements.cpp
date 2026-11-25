@@ -28,8 +28,7 @@ public:
 
         // Step 2: Create a Min Heap of pairs
         // Pair format: {frequency, element}
-        priority_queue<pair<int, int>,
-                       vector<pair<int, int>>, cmp> minHeap;
+        priority_queue<pair<int, int>, vector<pair<int, int>>, cmp> minHeap;
 
         // Step 3: Maintain only k most frequent elements
         for (auto i : freqCount) {
@@ -47,7 +46,9 @@ public:
 
             // Skip if current frequency is smaller than the
             // minimum frequency present in the heap
-            if (curr.first < minHeap.top().first) {
+            if (curr.first < minHeap.top().first ||
+                (curr.first == minHeap.top().first &&
+                 curr.second > minHeap.top().second)) {
                 continue;
             }
 
