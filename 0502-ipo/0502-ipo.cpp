@@ -21,35 +21,35 @@ public:
         int idx = 0;
 
         // Step 4: Select at most k projects
-        while (k--) {
-
-            // Add all currently affordable projects
+        for (int round = 0; round < k; round++) {
+            // Push all newly affordable projects into the heap
             while (idx < n && project[idx].first <= w) {
                 maxHeap.push(project[idx].second);
                 idx++;
             }
 
-            // No project is currently affordable
-            if (maxHeap.empty()) {
-                return w;
-            }
-
-            // Select the project with maximum profit
+            if (maxHeap.empty()) break; // No affordable project
             w += maxHeap.top();
             maxHeap.pop();
         }
         return w;
 
         //or
-        // Step 4: Select at most k projects
-        // for (int round = 0; round < k; round++) {
-        //     // Push all newly affordable projects into the heap
-        //     while (idx < n && projects[idx].first <= w) {
-        //         maxHeap.push(projects[idx].second);
+        // // Step 4: Select at most k projects
+        // while (k--) {
+
+        //     // Add all currently affordable projects
+        //     while (idx < n && project[idx].first <= w) {
+        //         maxHeap.push(project[idx].second);
         //         idx++;
         //     }
 
-        //     if (maxHeap.empty()) break; // No affordable project
+        //     // No project is currently affordable
+        //     if (maxHeap.empty()) {
+        //         return w;
+        //     }
+
+        //     // Select the project with maximum profit
         //     w += maxHeap.top();
         //     maxHeap.pop();
         // }
