@@ -7,27 +7,41 @@ public:
             maxHeap.push(i);
         }
 
-        if (maxHeap.size() == 1) {
-            return maxHeap.top();
-        } else {
-            while (maxHeap.size() > 1) {
-                int y = maxHeap.top();
-                maxHeap.pop();
+        while (maxHeap.size() > 1) {
 
-                int x = maxHeap.top();
-                maxHeap.pop();
+            int y = maxHeap.top();
+            maxHeap.pop();
 
-                if (x == y) {
-                    x = 0;
-                    y = 0;
-                } else {
-                    y = y - x;
-                    x = 0;
+            int x = maxHeap.top();
+            maxHeap.pop();
 
-                    maxHeap.push(y);
-                }
+            if (x != y) {
+                y = y - x;
+                maxHeap.push(y);
             }
         }
+
+        // if (maxHeap.size() == 1) {
+        //     return maxHeap.top();
+        // } else {
+        //     while (maxHeap.size() > 1) {
+        //         int y = maxHeap.top();
+        //         maxHeap.pop();
+
+        //         int x = maxHeap.top();
+        //         maxHeap.pop();
+
+        //         if (x == y) {
+        //             x = 0;
+        //             y = 0;
+        //         } else {
+        //             y = y - x;
+        //             x = 0;
+
+        //             maxHeap.push(y);
+        //         }
+        //     }
+        // }
 
         if (maxHeap.empty()) {
             return 0;
