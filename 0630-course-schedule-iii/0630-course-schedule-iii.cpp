@@ -2,6 +2,8 @@ class Solution {
 public:
     int scheduleCourse(vector<vector<int>>& courses) {
 
+        int n = courses.size();
+
         // Step 1: Sort courses by deadline (ascending order)
         sort(courses.begin(), courses.end(),
             [](const vector<int>& a, const vector<int>& b) {
@@ -15,18 +17,15 @@ public:
         int totalTime = 0;
 
         // Step 3: Process each course
-        for (int i = 0; i < courses.size(); i++) {
-
-            int duration = courses[i][0];
-            int deadline = courses[i][1];
+        for (int i = 0; i < n; i++) {
 
             // Select the current course
-            totalTime += duration;
-            maxHeap.push(duration);
+            totalTime += courses[i][0];
+            maxHeap.push(courses[i][0]);
 
             // Step 4: If deadline is exceeded, remove
             // the course with the maximum duration
-            if (totalTime > deadline) {
+            if (totalTime > courses[i][1]) {
 
                 totalTime -= maxHeap.top();
                 maxHeap.pop();
